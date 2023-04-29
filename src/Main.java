@@ -132,20 +132,23 @@ public class Main {
 
 
 
-        for (int year = (2023 - 200); year  <= 2023; year ++) {
-            if (year  % 79 == 0) {
-                System.out.println(year);
+        for (int year0 = (2023 - 200); year0  <= 2023; year0 ++) {
+            if (year0  % 79 == 0) {
+                System.out.println(year0);
+                break;
             }
 
         }
-        int year  = 1975;
 
-        while ( year      <= 1975) {
-            year  = year + 99;
-            year ++;
+        for (int year1 = 1975; year1  <= (1975+100); year1 ++) {
+            if (year1  % 79 == 0) {
+                System.out.println(year1);
+            }
 
-            System.out.println(year );
         }
+
+
+
 
 
 
